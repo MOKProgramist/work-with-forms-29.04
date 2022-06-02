@@ -64,6 +64,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 2;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -91,6 +92,7 @@
             this.label2.Size = new System.Drawing.Size(59, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Введите y";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -100,6 +102,7 @@
             this.label3.Size = new System.Drawing.Size(58, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Введите z";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -119,6 +122,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(162, 64);
             this.listBox1.TabIndex = 9;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // button2
             // 
